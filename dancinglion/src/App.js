@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import Navbar from './components/navbar'
 import MainContent from './components/jumbotron'
 import ContentMain from './components/contentMain'

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Collapse, Navbar, Button, NavbarBrand } from 'reactstrap';
 
 export default class NavbarTop extends React.Component {
   constructor(props) {
@@ -21,17 +21,7 @@ export default class NavbarTop extends React.Component {
       <div>
         <Navbar color="dark" light>
           <NavbarBrand href="/" className="mr-auto">reactstrap</NavbarBrand>
-          <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
-          <Collapse isOpen={!this.state.collapsed} navbar>
-            <Nav navbar>
-              <NavItem>
-                <NavLink href="/components/">Components</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">Github</NavLink>
-              </NavItem>
-            </Nav>
-          </Collapse>
+          <Button color="danger">Danger</Button>
         </Navbar>
       </div>
     );

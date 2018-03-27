@@ -1,9 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import Navbar from './components/navbar'
-import MainContent from './components/jumbotron'
-import Content from './components/contentMain'
-import ContentMain from './components/contentMain'
 import { Switch,  Route } from 'react-router-dom'
 
 //Routes
