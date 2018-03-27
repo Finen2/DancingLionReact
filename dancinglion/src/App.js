@@ -2,25 +2,26 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import Navbar from './components/navbar'
 import MainContent from './components/jumbotron'
+import ContentMain from './components/contentMain'
 
-var del1 = "heja"
-var del2 = "Mirja"
-var del3 = "Seja"
-var del4 = "Pia"
-var del5 = "Maria"
-var del6 = "Annie"
+import Header from './components/routes/header'
+import Routing from './routing'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Navbar />
-        <MainContent text={del1} />
-        <MainContent text={del2} />
-        <MainContent text={del3} />
-        <MainContent text={del4} />
-        <MainContent text={del5} />
-        <MainContent text={del6} />
+        <div>
+          <Header />
+          <Routing />
+        </div>
+        <MainContent text={ContentMain.del1} />
+        <MainContent text={ContentMain.del2} />
+        <MainContent text={ContentMain.del3} />
+        <MainContent text={ContentMain.del4} />
+        <MainContent text={ContentMain.del5} />
+        <MainContent text={ContentMain.del6} />
       </div>
     );
   }
