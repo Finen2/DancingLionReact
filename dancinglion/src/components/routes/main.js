@@ -10,7 +10,7 @@ import { CardDeck } from 'reactstrap';
 class Main extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
         <MainContent text={ContentMain.del1} jumboStyle={jumboStyleMain} />
         <MainContent text={ContentMain.del2} jumboStyle={jumboStyleMain} />
         <MainContent text={ContentMain.del3} jumboStyle={jumboStyleMain} />
@@ -34,6 +34,8 @@ export default Main;
 var jumboStyleMain = {
   'height': '100vh',
   'background-image': Img.bg,
+  'background-repeat': 'no-repeat',
+  'background-attachment': 'fixed',
   'color': '#fff'
 }
 
