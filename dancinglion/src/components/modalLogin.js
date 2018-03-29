@@ -28,13 +28,12 @@ class ModalLogin extends React.Component {
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className} external={externalCloseBtn}>
           <ModalHeader>Login</ModalHeader>
           <ModalBody>
-            <Button color="danger" onClick={this.toggle}><Link to='/'>Main</Link></Button>
-            <Button color="danger" onClick={this.toggle}><Link to='/student'>Student</Link></Button>
-            <Button color="danger" onClick={this.toggle}><Link to='/teacher'>Teacher</Link></Button>
+            <Button color="warning" onClick={this.toggle} style={buttonStyling}><Link to='/' style={textButton}>Homepage</Link></Button>
+            <Button color="warning" onClick={this.toggle} style={buttonStyling}><Link to='/student'style={textButton}>Student</Link></Button>
+            <Button color="warning" onClick={this.toggle} style={buttonStyling}><Link to='/teacher'style={textButton}>Teacher</Link></Button>
           </ModalBody>
           <ModalFooter>
-            <Button color="primary" onClick={this.toggle}>Do Something</Button>{' '}
-            <Button color="secondary" onClick={this.toggle}>Cancel</Button>
+            <Button color="danger" onClick={this.toggle}>Cancel</Button>
           </ModalFooter>
         </Modal>
       </div>
@@ -43,3 +42,11 @@ class ModalLogin extends React.Component {
 }
 
 export default ModalLogin;
+
+var textButton = {
+  'color': '#fff'
+}
+
+var buttonStyling = {
+  'margin': '0 0.25em'
+}

@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <div>
+        <div style={navbarMargin}>
           <Routing />
         </div>
       </div>
@@ -19,3 +19,7 @@ class App extends Component {
 }
 
 export default App;
+
+var navbarMargin = {
+  'padding-top': '5em'
+}
