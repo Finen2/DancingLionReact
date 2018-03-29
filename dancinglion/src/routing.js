@@ -4,6 +4,7 @@ import { Switch,  Route } from 'react-router-dom'
 //Routes
 import Main from './components/routes/main'
 import Student from './components/routes/student'
+import Teacher from './components/routes/teacher'
 
 class Routing extends Component {
   render() {
@@ -12,6 +13,7 @@ class Routing extends Component {
         <Switch>
           <Route exact path='/' component={Main} />
           <Route path='/student' component={Student} />
+          <Route path='/teacher' component={Teacher} />
         </Switch>
       </main>
     );

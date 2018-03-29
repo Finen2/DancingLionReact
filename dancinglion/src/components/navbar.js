@@ -1,6 +1,8 @@
 import React from 'react';
 import { Collapse, Navbar, Button, NavbarBrand } from 'reactstrap';
 
+import ModalLogin from './modalLogin'
+
 export default class NavbarTop extends React.Component {
   constructor(props) {
     super(props);
@@ -20,10 +22,15 @@ export default class NavbarTop extends React.Component {
     return (
       <div>
         <Navbar color="dark" light>
-          <NavbarBrand href="/" className="mr-auto">reactstrap</NavbarBrand>
-          <Button color="danger">Danger</Button>
+          <NavbarBrand href="/" className="mr-auto">Dancing Lion</NavbarBrand>
+          <ModalLogin buttonLabel="Login" />
         </Navbar>
       </div>
     );
   }
 }
+
+/*
+<li><Link to='/'>Main</Link></li>
+<li><Link to='/student'>Student</Link></li>
+*/
