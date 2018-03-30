@@ -12,11 +12,11 @@ class Main extends Component {
     return (
       <div>
         <MainContent text={ContentMain.del1} jumboStyle={jumboStyleMain} />
-        <MainContent text={ContentMain.del2} jumboStyle={jumboStyleMain} />
+        <MainContent text={ContentMain.del2} jumboStyle={jumboStyle1} />
         <MainContent text={ContentMain.del3} jumboStyle={jumboStyleMain} />
-        <MainContent text={ContentMain.del4} jumboStyle={jumboStyleMain} />
+        <MainContent text={ContentMain.del4} jumboStyle={jumboStyle1} />
         <MainContent text={ContentMain.del5} jumboStyle={jumboStyleMain} />
-        <MainContent text={ContentMain.del6} jumboStyle={jumboStyleMain} />
+        <MainContent text={ContentMain.del6} jumboStyle={jumboStyle1} />
 
         <CardDeck>
           <CardDes />
@@ -36,11 +36,17 @@ var jumboStyleMain = {
   'background-image': Img.bg,
   'background-repeat': 'no-repeat',
   'background-attachment': 'fixed',
-  'color': '#fff'
+  'color': '#fff',
+  'background-size': 'cover'
 }
 
 var jumboStyle1 = {
-  'color': 'red'
+  'height': '50vh',
+  'background' : '#fff',
+  'background-repeat': 'no-repeat',
+  'background-attachment': 'fixed',
+  'color': '#000',
+  'background-size': 'cover'
 }
 
 /*
