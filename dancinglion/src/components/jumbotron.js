@@ -1,14 +1,14 @@
-import React from 'react';
-import { Jumbotron, Container } from 'reactstrap';
+import React from "react";
+import { Jumbotron, Container } from "reactstrap";
 
 class MainContent extends React.Component {
-  render () {
-    return (
-      <div style={this.props.jumboStyle}>
-              {this.props.text}
-      </div>
-    )
-  }
+	render () {
+		return (
+			<div style={this.props.jumboStyle}>
+				{this.props.text}
+			</div>
+		);
+	}
 }
 
 export default MainContent;
