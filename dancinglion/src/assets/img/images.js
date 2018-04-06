@@ -1,11 +1,11 @@
 
 export default {
-  'bg':'url(https://drive.google.com/uc?id=1a-h5fmXJ_yrh04HbuDXygCAfg68QbhA3)',
-  'startBg': 'url(https://drive.google.com/uc?id=182ow1aaXMGEYDC879VufkI-o7i1DnhPg)',
-  'indexBg': 'url(https://drive.google.com/uc?id=1CEpVkiEXKAXwAxAwhPlgdXX95pdxIP4G)',
-  'extraBg': 'url(https://drive.google.com/uc?id=1BEb5XP1W3jYjWQSe6qYFsGQr_t47vw-t)',
-  'studentBg': 'url(https://drive.google.com/uc?id=1NURy9XKxZ4_enfPefaUY7q-wGAczwl0a)'
-}
+	"bg":"url(https://drive.google.com/uc?id=1a-h5fmXJ_yrh04HbuDXygCAfg68QbhA3)",
+	"startBg": "url(https://drive.google.com/uc?id=182ow1aaXMGEYDC879VufkI-o7i1DnhPg)",
+	"indexBg": "url(https://drive.google.com/uc?id=1CEpVkiEXKAXwAxAwhPlgdXX95pdxIP4G)",
+	"extraBg": "url(https://drive.google.com/uc?id=1BEb5XP1W3jYjWQSe6qYFsGQr_t47vw-t)",
+	"studentBg": "url(https://drive.google.com/uc?id=1NURy9XKxZ4_enfPefaUY7q-wGAczwl0a)"
+};
 
 /*
   1. bg:
